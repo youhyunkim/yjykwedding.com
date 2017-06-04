@@ -79,7 +79,7 @@ ul {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
     .preloader .middle .fa {
-      color: #aa9a45;
+      color: #7cd5fd;
       font-size: 25px;
       float: left;
       margin-right: 5px; }
@@ -116,7 +116,7 @@ ul {
     float: left;
     padding: 15px 0; }
   #clock > .box:nth-child(odd) {
-    background-color: #9f9041; }
+    background-color: #6dd0fd; }
   #clock .box div {
     font-size: 40px;
     display: block; }
@@ -418,7 +418,7 @@ ul {
     .bridesmaids .box .fade-icon .icon,
     .gallery .box .details .icon,
     .gallery .box .fade-icon .icon {
-      background-color: #aa9a45;
+      background-color: #7cd5fd;
       width: 35px;
       height: 35px;
       line-height: 35px;
@@ -454,7 +454,7 @@ ul {
     transform: translate(-50%, -50%); }
 
 .theme-btn {
-  background-color: #aa9a45;
+  background-color: #7cd5fd;
   line-height: 0.66em;
   color: #fff;
   padding: 15px;
@@ -466,7 +466,7 @@ ul {
   border-radius: 0;
   text-transform: uppercase; }
   .theme-btn:hover, .theme-btn:focus, .theme-btn:active {
-    background-color: #988a3e;
+    background-color: #63cdfd;
     color: #fff; }
   @media (max-width: 767px) {
     .theme-btn {
@@ -484,12 +484,12 @@ ul {
   .form input:focus,
   .form textarea:focus,
   .form select:focus {
-    border-color: #aa9a45;
-    -webkit-box-shadow: 0 0 5px 0 #bfb163;
-    -moz-box-shadow: 0 0 5px 0 #bfb163;
-    -o-box-shadow: 0 0 5px 0 #bfb163;
-    -ms-box-shadow: 0 0 5px 0 #bfb163;
-    box-shadow: 0 0 5px 0 #bfb163; }
+    border-color: #7cd5fd;
+    -webkit-box-shadow: 0 0 5px 0 #aee5fe;
+    -moz-box-shadow: 0 0 5px 0 #aee5fe;
+    -o-box-shadow: 0 0 5px 0 #aee5fe;
+    -ms-box-shadow: 0 0 5px 0 #aee5fe;
+    box-shadow: 0 0 5px 0 #aee5fe; }
 .form ::-webkit-input-placeholder {
   font-style: 14px;
   font-style: italic;
@@ -527,7 +527,7 @@ ul {
     height: 35px;
     margin-right: 1px; }
     .social-links li a {
-      background-color: #bfb163;
+      background-color: #aee5fe;
       width: 35px;
       height: 35px;
       line-height: 35px;
@@ -535,7 +535,7 @@ ul {
       color: #fff;
       text-align: center; }
       .social-links li a:hover {
-        background-color: #aa9a45; }
+        background-color: #7cd5fd; }
 
 /** modal **/
 .modal {
@@ -567,12 +567,12 @@ ul {
   .modal h4 {
     font-size: 26px;
     margin: 0;
-    color: #aa9a45; }
+    color: #7cd5fd; }
     @media (max-width: 767px) {
       .modal h4 {
         font-size: 18px; } }
   .modal .close {
-    background-color: #aa9a45;
+    background-color: #7cd5fd;
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -584,7 +584,7 @@ ul {
     -ms-border-radius: 50%;
     border-radius: 50%; }
   .modal .modal-body span {
-    background-color: #bfb163;
+    background-color: #aee5fe;
     font-size: 13px;
     color: white;
     text-transform: uppercase;
@@ -641,7 +641,7 @@ header {
       padding: 30px 0;
       display: none; }
       header #navbar .mobile-menu-logo i {
-        color: #aa9a45; }
+        color: #7cd5fd; }
       @media (max-width: 991px) {
         header #navbar .mobile-menu-logo {
           display: block; } }
@@ -659,7 +659,7 @@ header {
       outline: none; }
     header #navbar .navbar-nav > .active > a, header #navbar .navbar-nav > .active > a:focus, header #navbar .navbar-nav a:hover {
       background-color: transparent;
-      color: #aa9a45; }
+      color: #7cd5fd; }
     @media screen and (min-width: 992px) {
       header #navbar .dropdown-menu {
         width: 200px;
@@ -705,7 +705,7 @@ header {
       header .container {
         width: 100%; }
       header .navbar-header button {
-        background-color: #aa9a45;
+        background-color: #7cd5fd;
         width: 40px;
         height: 35px;
         border: 0;
@@ -744,7 +744,7 @@ header {
           height: 100%;
           overflow: auto; }
         header #navbar .close-navbar {
-          background-color: #aa9a45;
+          background-color: #7cd5fd;
           width: 35px;
           height: 35px;
           color: #fff;
@@ -844,7 +844,7 @@ header {
       height: 0;
       border-left: 90px solid transparent;
       border-right: 90px solid transparent;
-      border-top: 60px solid rgba(170, 154, 69, 0.9);
+      border-top: 60px solid rgba(124, 213, 253, 0.9);
       position: absolute;
       top: 0;
       left: 50%;
@@ -857,7 +857,7 @@ header {
         .logo-bottom-shape-wrapper .logo-bottom-shape:before {
           border-left: 60px solid transparent;
           border-right: 60px solid transparent;
-          border-top: 50px solid rgba(170, 154, 69, 0.9); } }
+          border-top: 50px solid rgba(124, 213, 253, 0.9); } }
     .logo-bottom-shape-wrapper .logo-bottom-shape:after {
       content: "";
       width: 185px;
@@ -895,16 +895,16 @@ footer {
       margin: 0 auto !important;
       float: none; } }
   footer .box {
-    background: rgba(170, 154, 69, 0.6);
+    background: rgba(124, 213, 253, 0.6);
     padding: 50px 25px;
-    border: 5px solid #aa9a45;
+    border: 5px solid #7cd5fd;
     margin-bottom: 35px;
     position: relative;
     /** frame **/ }
     @media (max-width: 767px) {
       footer .box {
         padding: 40px 20px;
-        border: 3px solid #aa9a45; } }
+        border: 3px solid #7cd5fd; } }
     footer .box h2 {
       font-family: "Sail", cursive;
       font-size: 42px;
@@ -1083,7 +1083,7 @@ footer {
           font-size: 14px;
           letter-spacing: 4px; } }
     .hero .announcement-wrapper .couple-name {
-      background-color: rgba(170, 154, 69, 0.5);
+      background-color: rgba(124, 213, 253, 0.5);
       display: inline-block;
       margin-top: 20px;
       padding: 15px 35px;
@@ -1093,7 +1093,7 @@ footer {
           padding: 15px 15px; } }
       .hero .announcement-wrapper .couple-name:before, .hero .announcement-wrapper .couple-name:after {
         content: "";
-        background-color: #aa9a45;
+        background-color: #7cd5fd;
         width: 105%;
         height: 3px;
         position: absolute;
@@ -1168,7 +1168,7 @@ footer {
     font-family: FontAwesome;
     content: "\f004";
     font-size: 20px;
-    color: #988a3e;
+    color: #63cdfd;
     opacity: 0.5; }
     @media (max-width: 450px) {
       .hero .hero-slider .owl-dots .owl-dot span:before {
@@ -1189,7 +1189,7 @@ footer {
   z-index: 1000; }
   .count-down .clock-holder {
     width: 45%;
-    background-color: #aa9a45;
+    background-color: #7cd5fd;
     color: #fff;
     margin: 0 auto;
     opacity: 0.9; }
@@ -1205,7 +1205,7 @@ footer {
     .count-down .clock-holder #colck {
       overflow: hidden !important; }
   .count-down .countdown-section {
-    background-color: #8d8039;
+    background-color: #54c8fc;
     padding: 15px 0; }
 
 /*--------------------------------------------------------------
@@ -1235,13 +1235,13 @@ footer {
           display: none; } }
   .couple .details > span {
     font-weight: bold;
-    color: #b8a850;
+    color: #95ddfd;
     text-transform: uppercase;
     letter-spacing: 5px; }
   .couple .details h4 {
     font-size: 24px;
     font-weight: bold;
-    color: #aa9a45;
+    color: #7cd5fd;
     margin: 0.4em 0 1.2em;
     text-transform: uppercase;
     letter-spacing: 1px; }
@@ -1317,16 +1317,16 @@ footer {
     .story .story-box .nav-tabs li {
       width: 25%;
       margin: 0;
-      border-right: 1px solid #aa9a45; }
+      border-right: 1px solid #7cd5fd; }
       @media (max-width: 550px) {
         .story .story-box .nav-tabs li {
           width: 100%;
           border-right: 0;
-          border-bottom: 1px solid #aa9a45; } }
+          border-bottom: 1px solid #7cd5fd; } }
       .story .story-box .nav-tabs li:last-child {
         border: 0; }
       .story .story-box .nav-tabs li a {
-        background-color: #b8a850;
+        background-color: #95ddfd;
         display: block;
         font-size: 13px;
         color: #fff;
@@ -1352,7 +1352,7 @@ footer {
         .story .story-box .nav-tabs li i:before {
           font-size: 14px; } }
   .story .story-box .nav-tabs li.active a {
-    background-color: #aa9a45; }
+    background-color: #7cd5fd; }
   .story .tab-content {
     background-color: #fff;
     margin-top: 2px;
@@ -1378,7 +1378,7 @@ footer {
             font-size: 16px; } }
       .story .tab-content .story-details span {
         display: block;
-        color: #aa9a45;
+        color: #7cd5fd;
         font-size: 14px;
         font-weight: bold;
         text-transform: uppercase;
@@ -1424,13 +1424,13 @@ footer {
   .events .event-boxes {
     position: relative;
     overflow: hidden;
-    border: 6px solid #bfb163; }
+    border: 6px solid #aee5fe; }
     @media (max-width: 767px) {
       .events .event-boxes {
-        border: 3px solid #bfb163; } }
+        border: 3px solid #aee5fe; } }
     .events .event-boxes .left-half,
     .events .event-boxes .right-half {
-      background-color: #bfb163;
+      background-color: #aee5fe;
       width: 50%;
       height: 100%;
       position: absolute;
@@ -1459,12 +1459,12 @@ footer {
       -webkit-animation: clip-fade-out 1s 0.5s alternate forwards;
       animation: clip-fade-out 1s 0.5s alternate forwards; }
     .events .event-boxes .clip {
-      background-color: #867936;
+      background-color: #4ac5fc;
       width: 50px;
       height: 50px;
       line-height: 50px;
       text-align: center;
-      border: 2px solid #615828;
+      border: 2px solid #18b5fb;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -o-border-radius: 50%;
@@ -1514,7 +1514,7 @@ footer {
   .events .bachalor-party h3 {
     font-size: 18px;
     font-weight: bold;
-    color: #aa9a45;
+    color: #7cd5fd;
     margin: 0 0 0.7em;
     text-transform: uppercase;
     letter-spacing: 2px; }
@@ -1605,7 +1605,7 @@ footer {
       .important-people .groomsmen .owl-controls .owl-next,
       .important-people .bridesmaids .owl-controls .owl-prev,
       .important-people .bridesmaids .owl-controls .owl-next {
-        background-color: #bfb163;
+        background-color: #aee5fe;
         width: 32px;
         height: 32px;
         line-height: 32px;
@@ -1621,7 +1621,7 @@ footer {
         .important-people .groomsmen .owl-controls .owl-next:hover,
         .important-people .bridesmaids .owl-controls .owl-prev:hover,
         .important-people .bridesmaids .owl-controls .owl-next:hover {
-          background-color: #aa9a45; }
+          background-color: #7cd5fd; }
         @media (max-width: 767px) {
           .important-people .groomsmen .owl-controls .owl-prev,
           .important-people .groomsmen .owl-controls .owl-next,
@@ -1738,7 +1738,7 @@ footer {
     .rsvp .rsvp-form-wrapper .border-box {
       width: 95%;
       height: 93%;
-      border: 1px solid #bfb163;
+      border: 1px solid #aee5fe;
       position: absolute;
       left: 50%;
       top: 50%;
@@ -1753,7 +1753,7 @@ footer {
       .rsvp .rsvp-form-wrapper .border-box > div {
         width: 99%;
         height: 99%;
-        border: 1px solid #bfb163;
+        border: 1px solid #aee5fe;
         position: relative;
         left: 50%;
         top: 50%;
@@ -1763,7 +1763,7 @@ footer {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
       .rsvp .rsvp-form-wrapper .border-box .fi {
-        background: #aa9a45;
+        background: #7cd5fd;
         display: inline-block;
         width: 32px;
         height: 32px;
@@ -1918,7 +1918,7 @@ footer {
         .journal .journal-content h4 {
           font-size: 17px; } }
       .journal .journal-content h4 a {
-        color: #988a3e; }
+        color: #63cdfd; }
       .journal .journal-content h4 + span {
         font-size: 14px;
         font-weight: bold;

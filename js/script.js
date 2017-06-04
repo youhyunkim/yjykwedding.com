@@ -78,14 +78,14 @@
             if (navbar.hasClass("slideInn")) {
                 navbar.removeClass("slideInn");
             }
-            return false;            
+            return false;
         })
 
         navLinks.on("click", function() {
             if (navbar.hasClass("slideInn")) {
                 navbar.removeClass("slideInn");
             }
-            return false;            
+            return false;
         })
     }
 
@@ -180,7 +180,7 @@
     // Only apply for less then ie 10
 
     if ($("#clock").length) {
-        $('#clock').countdown('2017/12/31', function(event) {
+        $('#clock').countdown('2017/09/09', function(event) {
             var $this = $(this).html(event.strftime(''
             + '<div class="box"><div>%D</div> <span>Days</span> </div>'
             + '<div class="box"><div>%H</div> <span>Hours</span> </div>'
@@ -199,7 +199,7 @@
             var leftHalf = eventBoxes.find(".left-half");
             var rightHalf = eventBoxes.find(".right-half");
             var clip = eventBoxes.find(".clip");
-            
+
             // If not ie and ie < 10 then do
             if (isIE () && !isIE () < 10) {
                 leftHalf.css({
@@ -259,7 +259,7 @@
 
     /*------------------------------------------
         = ACTIVE FANCYBOX
-    -------------------------------------------*/  
+    -------------------------------------------*/
     if ($(".fancybox").length) {
         $(".fancybox").fancybox({
             openEffect  : "elastic",
@@ -291,7 +291,7 @@
 
     /*------------------------------------------
         = GOOGLE MAP
-    -------------------------------------------*/  
+    -------------------------------------------*/
     function map() {
 
         var locations = [
@@ -311,7 +311,7 @@
 
         var marker, i;
 
-        for (i = 0; i < locations.length; i++) {  
+        for (i = 0; i < locations.length; i++) {
                 marker = new google.maps.Marker({
                 position: new google.maps.LatLng(locations[i][1], locations[i][2]),
                 map: map,
@@ -325,12 +325,12 @@
                 }
             })(marker, i));
         }
-    }; 
+    };
 
 
     /*------------------------------------------
         = JOURNAL MODAL POPUP
-    -------------------------------------------*/  
+    -------------------------------------------*/
     if($('.modal').length) {
         $('.modal').appendTo("body");
     }
@@ -338,7 +338,7 @@
 
     /*------------------------------------------
         = RSVP FORM SUBMISSION
-    -------------------------------------------*/  
+    -------------------------------------------*/
     if ($("#rsvp-form").length) {
         $("#rsvp-form").validate({
             rules: {
@@ -347,11 +347,11 @@
                     minlength: 2
                 },
                 email: "required",
-                
+
                 guest: {
                     required: true
                 },
-                
+
                 events: {
                     required: true
                 }
@@ -395,7 +395,7 @@
 
 
     /*==========================================================================
-        WHEN DOCUMENT LOADING 
+        WHEN DOCUMENT LOADING
     ==========================================================================*/
     $(window).on('load', function() {
         preloader();
@@ -408,7 +408,7 @@
 
         if ($(".map").length) {
             map();
-        } 
+        }
     });
 
 })(window.jQuery);
