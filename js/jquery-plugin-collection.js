@@ -8,7 +8,7 @@
  *	Owl carousel
  *	jQuery Superfish Menu Plugin
  *	Simple JavaScript Inheritance
- *	Final Countdown
+ *	Final Countdown 
  *	jquery validate
  *  jquery easein
  *  WOW - v1.1.3
