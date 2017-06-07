@@ -347,11 +347,7 @@
                 },
                 email: "required",
 
-                guest: {
-                    required: true
-                },
-
-                events: {
+                rsvp: {
                     required: true
                 }
 
