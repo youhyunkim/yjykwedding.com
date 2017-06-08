@@ -138,7 +138,7 @@
 
                 heroSliderBgImg();
 
-                //Active heor slider
+                //Active hero slider
                 if ($(".hero-slider").length) {
                     $(".hero-slider").owlCarousel({
                         items: 1,
